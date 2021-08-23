@@ -7,6 +7,7 @@ const handle = nextApp.getRequestHandler();
 require("dotenv").config({ patth: "./config.env" });
 const connectDb = require("./utilServer/connectDb");
 const PORT = process.env.PORT || 3000;
+app.use(express.json());
 connectDb();
 
 nextApp.prepare().then(() => {
