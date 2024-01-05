@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@artsy/fresnel": "^1.2.2",
-    "axios": "^0.21.0",
+    "axios": "^1.6.4",
     "bcryptjs": "^2.4.3",
     "crypto": "^1.0.1",
     "dotenv": "^8.2.0",
